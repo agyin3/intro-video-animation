@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" href="css/normalize.css" rel="stylesheet">
+        <link type="text/css" href="css/main.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3fcd61ba39.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="page-header">
+                <div class="page-title">
+                    <i class="fas fa-poop"></i>
+                    <h1>Design First</h1>
+                </div>
+                <h2>Turning your poop ideas into a masterpiece</h2>
+            </header>
+            <div class="deco-stack">
+                <!-- Need Images -->
+                <img class="deco-stack_img deco-stack_img--rotation-1" src="https://images.unsplash.com/photo-1498075702571-ecb018f3752d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1514&q=80"/>
+                <img class="deco-stack_img deco-stack_img--rotation-2" src="https://images.unsplash.com/photo-1535598745644-bc7913bb1a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80"/>
+                <img class="deco-stack_img deco-stack_img--rotation-3" src="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1492&q=80"/>
+            </div>
+            <div class="video-wrap">
+                <div class="video-inner">
+                    <video class="video-player" src="media/School%20-%2080%20(1).mp4" poster="media/school.jpg" preload="auto"> <!-- Need video poster -->
+                        <source src="media/School%20-%2080%20(1).webm" type='video/webm; codecs="vp8.0, vorbis"'>
+                        <source src="media/School%20-%2080%20(1).ogg" type='video/ogg; codecs="theora, vorbis"'>
+                        <source src="media/School%20-%2080%20(1).mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
+                        <p>Sorry, your browser does not support this video format.</p>
+                    </video>
+                    <button class="action action--close">
+                        <i class="fas fa-times"></i>
+                        <span class="action_label action_label--hidden">Close Preview</span>
+                    </button>
+                </div> <!-- /video-inner -->
+            </div> <!-- /video-wrap -->
+
+            <div class="content">
+                <div class="loader">
+                    <i class="fas fa-spinner fa-pulse"></i>
+                </div>
+                <button class="action action--hidden action--play">
+                    <i class="fas fa-play"></i><span class="action_label">Watch the video</span>
+                </button>
+            </div>
+        </div> <!-- /container -->
+        <script src="javascript/script.js"></script>
+    </body>
+</html>
